@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="css/utils.css">
     <link rel="stylesheet" href="css/style.css">
 
+    <script src="javascript/index.js"></script>
+
 </head>
 
 <body>
@@ -41,7 +43,7 @@
                 deleniti quibusdam illum reprehenderit. Laborum, reprehenderit!
             </div>
             <div class="actions gap-16">
-                <button class="button">
+                <button id="request-friendship" data-requested-friendship="false" class="button">
                     Solicitar Amizade
                 </button class="button">
                 <button class="button">
@@ -50,6 +52,10 @@
             </div>
         </section>
 
+        <div id="message" class="message">
+            Escreva aqui sua mensagem:
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
 
         <section class="posts">
             <div class="post space-y-12">
