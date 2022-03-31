@@ -19,12 +19,12 @@ document.addEventListener('DOMContentLoaded', function (event) {
     })
 
 
-    /* Abaixo você vai ouvir quando o botão de enviar mensagem for clicado 
-    e vai mostrar o elemtno com id "message" mudadndo o atributo "display" 
-    para "inline-block" */
+    /* Abaixo você vai ouvir quando o botão de "enviar mensagem" for clicado 
+    e vai mostrar o elemtno com id "message" mudando o atributo "display" 
+    para "block" */
 
 
 
-    
+
 
 })
